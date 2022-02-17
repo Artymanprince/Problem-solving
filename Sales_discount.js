@@ -1,3 +1,5 @@
+/*Create a price purchase system where 30%
+
 const STD_PRICE = 30000;
 const DISCOUNT = 0.3;
 var x = prompt("How much do you intend to purchase");
