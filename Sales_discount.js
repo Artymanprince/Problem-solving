@@ -1,4 +1,4 @@
-/*Create a price purchase system where 30%
+/*Create a price purchase system where 30% is granted to the user if they purchase above the 
 
 const STD_PRICE = 30000;
 const DISCOUNT = 0.3;
