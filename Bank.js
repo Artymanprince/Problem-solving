@@ -5,11 +5,18 @@ acct_num = parseInt(acct_num, 10);
 const banks = ["UBA", "GtBank", "Access Bank", "Fidelity Bank", "Zenith Bank"];
 var amount;
 function process(){
+	if (!acct_num){
+		return;
+	}else{
 	console.log(banks);
-	prompt( "Please select from the list. 0-4", for (var i in banks) 
+	alert(banks.join('\r\n'))
+	prompt( "Please select from the list. 0-4."); 
+
+   for (const item of banks) 
 {
-   console.log("row " + i) );
+   console.log(`${item}`)} 
 	amount = prompt("Please input amount to be paid");
 	amount = parseInt(amount, 10);
+	} 
 } 
 process();
